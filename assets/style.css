@@ -3,6 +3,11 @@ body {
 	margin: auto;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
