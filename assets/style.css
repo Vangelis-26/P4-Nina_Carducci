@@ -1,16 +1,13 @@
 body {
 	max-width: 1920px;
 	margin: auto;
+	font-family: 'Inter';
+	font-style: normal;
 }
 
 img {
 	max-width: 100%;
 	height: auto;
-}
-
-* {
-	font-family: 'Inter';
-	font-style: normal;
 }
 
 .top-header {
@@ -47,6 +44,10 @@ img {
 
 .social-link img {
 	width: 20px;
+}
+
+.visually-hidden {
+	background-color: #000;
 }
 
 #about {
@@ -94,6 +95,7 @@ img {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 
 #about-me p {
@@ -111,7 +113,7 @@ img {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: black;
 	background-color: #BEB45A;
 	border-radius: 0;
 }
@@ -135,6 +137,10 @@ img {
 	display: block;
 	padding-bottom: 100%;
 
+}
+
+.gallery {
+	display: none;
 }
 
 .gallery-item {
@@ -167,6 +173,7 @@ img {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5rem;
 
 }
 
