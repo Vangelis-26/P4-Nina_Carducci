@@ -141,7 +141,7 @@
 
       $(imagesCollection).each(function (i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i - 1;
+          index = i - 1; // Ajout décrémentation de 1
         }
       });
       next =
@@ -176,7 +176,7 @@
 
       $(imagesCollection).each(function (i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i + 1;
+          index = i + 1; // Ajout incrémentation de 1
         }
       });
       next = imagesCollection[index] || imagesCollection[0];
@@ -227,7 +227,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active active-tag");
+      $(this).addClass("active active-tag"); // Correction de la classe active
 
       var tag = $(this).data("images-toggle");
 
